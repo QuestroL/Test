@@ -13,6 +13,7 @@ namespace Services.DTO
 
         public string NickName { get; set; }
 
+        public int P { get; }
         public string Comment { get; set; }
 
         public DateTime CommentDate { get; set; }
